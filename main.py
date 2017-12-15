@@ -12,9 +12,9 @@ oled = ssd1306.SSD1306_I2C(128, 32, i2c)
 pin = machine.Pin(2, machine.Pin.OUT)
 
 #oled.fill(1)
-oled.text("Feliz Navidad", 0, 0)
-oled.text("Pronet", 0, 10)
-oled.text("Technology", 0, 20)
+oled.text("  Feliz Navidad ", 0, 0)
+oled.text("     Pronet     ", 0, 10)
+oled.text("   Technology   ", 0, 20)
 oled.show()
 
 def toggle(p):
